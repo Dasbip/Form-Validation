@@ -1,0 +1,126 @@
+.form_article {
+    border-style: solid;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .header_tag h1 {
+    text-align: center;
+    border: 2px solid;
+  }
+  
+  .header_tag {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .user_details {
+    border: 2px solid;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .userdetails label {
+    width: 180px;
+    display: block;
+    float: left;
+  }
+  
+  .sub-user {
+    margin: 0 0 15px 15px;
+  }
+  
+  /* .contact_details{
+    display: flex;
+  } */
+  .postal-address {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  .postal-address label {
+    margin: auto;
+  }
+  
+  .contact_details {
+    border: 2px solid;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .contact_details h1 {
+    margin-left: 15px;
+  }
+  
+  .sub-contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+  }
+  
+  .contact1 label {
+    width: 180px;
+    display: block;
+    float: left;
+  }
+  
+  .contact2 label {
+    width: 180px;
+    display: block;
+    float: left;
+  }
+  
+  #adress {
+    width: 272px;
+    height: 76px;
+  }
+  
+  .forms {
+    display: flex;
+  }
+  
+  .gender {
+    display: flex;
+    align-items: center;
+    margin-bottom: -35px;
+    margin-top: -14px;
+  }
+  .personal-form1{
+    margin-right: 10px;
+  }
+  .personal-form1 label{
+    width: 124px;
+    display: block;
+    float: left;
+  }
+  .personal-form2 label{
+    width: 76px;
+    display: block;
+    float: left;
+  }
+  .Male{
+    margin-right: -35px;
+  }
+  .personal{
+    border: 1px solid;
+    margin: 10px 10px 10px 10px;
+    padding: 0 0 10px 10px;
+  }
+  .sub-confirm{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+  }
+  .confirm{
+    border: 2px solid;
+    margin: 10px 10px 10px 10px;
+  }
+  .submit{
+    text-align: center;
+    padding: 15px 0 50px 0;
+  }
+  .submit button{
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+  .submit button:hover{
+    background-color: rgb(173, 216, 18);
+  }

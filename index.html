@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <article class="form_article">
+        <div class="header_tag">
+            <h1>Customer Registration Form</h1>
+        </div>
+        <!-- {/* user Details start */} -->
+        <div class="user_details">
+            <div class="sub-user">
+                <h1>User Details</h1>
+                <form class="userdetails">
+                    <label for="Email">Email*: </label>
+                    <input placeholder="Email" type="text" /> <br /><br />
+                    <label for="Fname">Password*: </label>
+                    <input placeholder="Password" type="text" /><br /><br />
+                    <label for="Fname">Confirm Password*: </label>
+                    <input placeholder="Confirm Password" type="text" />
+                </form>
+            </div>
+        </div>
+        <!-- {/* Contact Details Start */} -->
+        <div class="contact_details">
+            <h1>Your Contact Details</h1>
+            <div class="sub-contact-details">
+                <form class="contact1">
+                    <label For="Firstname">Firstname*:</label>
+                    <input type="text" id="Firstname" placeholder="Firstname" />
+                    <br /><br />
+                    <div class="postal-address">
+                        <label For="address">Postal Address*:</label>
+                        <textarea name="Postal Address" id="address" cols="25" rows="4"></textarea>
+                    </div>
+                    <br /><br />
+                    <label For="Area">Area*:</label>
+                    <input type="text" id="Area" placeholder="Area" />
+                    <br /><br />
+                    <label For="mobile">Mobile Number*:</label>
+                    <input type="text" id="mobile" placeholder="mobile Number" />
+                </form>
+
+                <form class="contact2">
+                    <label For="Last">Last Name*:</label>
+                    <input type="text"
+                        id="Last" placeholder="Last Name" />
+                    <br /><br />
+                    <label For="Country">Country*:</label>
+                    <select name="" id="Country">
+                        <option disabled value="country">Select Country</option>
+                        <option value="country1">Austrailia</option>
+                        <option value="country2">India</option>
+                        <option value="country3">Germany</option>
+                        <option value="country4">Brazil</option>
+                    </select>
+                    <br /><br />
+                    <label For="State">State/Province*:</label>
+                    <select id="State">
+                        <option disabled value="">Select State</option>
+                        <option value="Aus1">Aus1</option>
+                        <option value="Aus2">Aus2</option>
+                        <option value="IND1">IND1</option>
+                        <option value="IND2">IND2</option>
+                        <option value="GER1">GER1</option>
+                        <option value="GER2">GER2</option>
+                        <option value="BRA1">BRA1</option>
+                        <option value="BRA2">BRA2</option>
+                    </select>
+                    <br /><br />
+                    <label For="city">City*:</label>
+                    <input type="text" id="city" placeholder="City" />
+                    <br /><br />
+                    <label For="pin">Pin/Zip Code*:</label>
+                    <input type="text" id="pin" placeholder="Pin/Zip Code" />
+                    <br /><br />
+                    <label For="tel">Telephone No*:</label>
+                    <input type="text" id="tel" placeholder="Telephone No" />
+                </form>
+            </div>
+        </div>
+        <!-- {/* Personal Details */} -->
+        <div class="personal">
+            <h1>Personal Information</h1>
+            <div class="forms">
+                <form class="personal-form1">
+                    <label for="alterE">Alternate Email:</label>
+                    <input type="text" id="alterE" />
+                    <br /><br />
+                    <label for="Birthday">Birthday:</label>
+                    <input type="text" id="alterE" />
+                </form>
+
+                <form class="personal-form2">
+                    <div class="gender">
+                        <p>Gender:</p>
+                        <input type="radio" name="gender" id="Male" />
+                        <label for="Male" class="Male">Male</label>
+                        <input type="radio" name="gender" id="Female" />
+                        <label for="Female"class="Female">Female</label>
+                    </div>
+                    <br /><br />
+                    <label for="birth">Birthday:</label>
+                    <input type="text" id="birth" />
+                </form>
+            </div>
+        </div>
+        <!-- confirmation -->
+        <div class="confirm">
+            <div class="sub-confirm">
+            <input type="checkbox" id="check" />
+            <label for="check">Would you like to confirm</label>
+            </div>
+        </div>
+        <div class="submit">
+            <button onclick="suBmit()">submit</button>
+        </div>
+    </article> 
+    <script src="./index.js"></script>
+</body>
+</html>
